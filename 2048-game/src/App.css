@@ -32,3 +32,16 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+
+/* animaciones */
+.tile {
+  position: absolute;
+
+  transition-property: left, top, transform;
+  transition-duration: 250ms, 250ms, 100ms;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
